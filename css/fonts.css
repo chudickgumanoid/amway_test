@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'GT Walsheim Pro';
+  src: url('../fonts/GTWalsheimPro-Medium.eot');
+  src: local('☺'), url('../fonts/GTWalsheimPro-Medium.woff') format('woff'), url('../fonts/GTWalsheimPro-Medium.ttf') format('truetype'), url('../fonts/GTWalsheimPro-Medium.svg') format('svg');
+  font-weight: 500;
+  font-style: 500;
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro';
+  src: url('../fonts/GTWalsheimPro-Bold.eot');
+  src: local('☺'), url('../fonts/GTWalsheimPro-Bold.woff') format('woff'), url('../fonts/GTWalsheimPro-Bold.ttf') format('truetype'), url('../fonts/GTWalsheimPro-Bold.svg') format('svg');
+  font-weight: 700;
+  font-style: 700;
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro';
+  src: url('../fonts/GTWalsheimPro.eot');
+  src: local('☺'), url('../fonts/GTWalsheimPro.woff') format('woff'), url('../fonts/GTWalsheimPro.ttf') format('truetype'), url('../fonts/GTWalsheimPro.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
