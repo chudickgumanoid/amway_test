@@ -332,7 +332,9 @@ body {
 
 
 /* ------- */
-.can-you-keep {}
+.can-you-keep {
+  margin: 80px 0;
+}
 
 .can-you-keep__body {
   /* max-width: 800px; */
@@ -367,11 +369,13 @@ body {
 }
 
 .can-you-keep__step-container {
-  max-width: 800px;
+  max-width: 950px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
+  align-items: center;
+  /* Добавлено */
   position: relative;
 }
 
@@ -394,6 +398,10 @@ body {
   justify-content: center;
   text-align: center;
   gap: 22px;
+  height: 100%;
+  justify-content: flex-start;
+  /* Добавлено для выравнивания по верхней линии */
+  /* Добавлено для полной высоты */
 }
 
 .can-you-keep__step-number {
@@ -418,4 +426,92 @@ body {
 .can-you-keep__description {
   font-size: 18px;
   font-weight: 700;
+}
+
+
+/* ------- */
+.about-program {
+  background: var(--accent-color);
+  padding: 64px 0;
+}
+
+.about-program__body {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 82px;
+}
+
+.about-program__video {}
+
+.about-program__text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.about-program__title {
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+.about-program__list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.about-program__items {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.about-program__item {
+  display: flex;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.about-program__item-img {
+  height: 20px;
+  width: 20px;
+}
+
+.about-program__item-text {
+  color: var(--text-gray-light);
+}
+
+
+/* ------- */
+.materials {
+  margin: 40px auto 87px;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.materials__icon {
+  width: 24px;
+  height: 24px;
+}
+
+.materials__text {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  color: var(--text-gray-light);
+  position: relative;
+}
+
+.materials__text::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: var(--text-gray-light);
+  position: absolute;
+  left: 0;
+  bottom: 0px;
 }
